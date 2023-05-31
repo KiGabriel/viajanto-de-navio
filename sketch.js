@@ -28,7 +28,7 @@ ship.scale = 0.26;
 
 function draw() {
   background(0);
-  sea.velocytX = -3;
+  sea.velocityX = -3;
   
   drawSprites();
 
