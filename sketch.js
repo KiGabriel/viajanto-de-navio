@@ -2,7 +2,7 @@ var sea, ship;
 var seaImg, shipImg;
 
 function preload(){
-  seaImg = loandImage("sea.png");
+  seaImg = loadImage("sea.png");
   shipImg1 = loadAnimation("ship-1.png","ship-1.png","ship-2.png","ship-1.png"); 
 
 }   
@@ -17,7 +17,7 @@ sea.velocityX = -5;
 sea.scale = 0,3;
 
 ship = createSprite(120,200,30,30);
-ship.addAnimation("movingship",shipImg1);
+ship.addAnimation("movingShip",shipImg1);
 ship.scale = 0.26;
 
 
